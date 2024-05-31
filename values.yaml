@@ -1,4 +1,4 @@
-system: excercise
+system: exercise
 
 service: frontend
 
@@ -7,6 +7,6 @@ deployment:
     repository: swaggerapi/swagger-ui
     
   labels:
-    system: excercise
+    system: exercise
     service: frontend
     # backstage.io/kubernetes-id: frontend

@@ -1,4 +1,4 @@
 apiVersion: v2
-name: excercise-frontend-service-dev
-description: A Helm chart for deploying excercise-frontend-service-dev
+name: exercise-frontend-service-dev
+description: A Helm chart for deploying exercise-frontend-service-dev
 version: 1.0

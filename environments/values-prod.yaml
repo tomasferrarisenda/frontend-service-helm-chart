@@ -7,4 +7,4 @@ deployment:
 
   labels:
     environment: prod
-    app: excercise-frontend-service-prod
+    app: exercise-frontend-service-prod

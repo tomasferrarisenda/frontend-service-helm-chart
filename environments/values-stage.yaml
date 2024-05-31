@@ -7,4 +7,4 @@ deployment:
 
   labels:
     environment: stage
-    app: excercise-frontend-service-stage
+    app: exercise-frontend-service-stage
