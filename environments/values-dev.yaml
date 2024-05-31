@@ -1,0 +1,10 @@
+environment: dev
+
+deployment:
+  image:  
+    tag: latest
+  replicas: 1
+
+  labels:
+    environment: dev
+    app: excercise-frontend-service-dev

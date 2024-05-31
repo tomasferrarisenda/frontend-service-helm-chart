@@ -1,0 +1,10 @@
+environment: stage
+
+deployment:
+  image:  
+    tag: latest
+  replicas: 1
+
+  labels:
+    environment: stage
+    app: excercise-frontend-service-stage

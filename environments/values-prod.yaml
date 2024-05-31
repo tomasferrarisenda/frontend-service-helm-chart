@@ -1,0 +1,10 @@
+environment: prod
+
+deployment:
+  image:  
+    tag: latest
+  replicas: 1
+
+  labels:
+    environment: prod
+    app: excercise-frontend-service-prod

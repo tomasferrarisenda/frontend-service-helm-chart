@@ -1,0 +1,12 @@
+system: excercise
+
+service: frontend
+
+deployment:
+  image:
+    repository: swaggerapi/swagger-ui
+    
+  labels:
+    system: excercise
+    service: frontend
+    # backstage.io/kubernetes-id: frontend
