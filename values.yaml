@@ -1,6 +1,6 @@
 system: exercise
 
-service: frontend-service
+service: frontend
 
 deployment:
   image:
@@ -8,5 +8,5 @@ deployment:
     
   labels:
     system: exercise
-    service: frontend-service
+    service: frontend
     # backstage.io/kubernetes-id: frontend
