@@ -7,7 +7,7 @@ deployment:
 
   labels:
     environment: dev
-    app: exercise-frontend-service-dev
+    app: exercise-frontend-dev
 
     # environment:
     #   - URL=http://localhost:8080/openapi
