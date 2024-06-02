@@ -5,7 +5,7 @@ service: frontend
 deployment:
   image:
     # repository: swaggerapi/swagger-ui
-    repository: tferrari92/frontend
+    repository: tferrari92/frontend-service
     
   labels:
     system: exercise
