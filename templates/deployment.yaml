@@ -27,4 +27,4 @@ spec:
             - containerPort: 8080
           env:
           - name: URL
-            value: http://localhost:8082/openapi
+            value: http://api-gradle-{{ .Values.environment }}.exercise/openapi
