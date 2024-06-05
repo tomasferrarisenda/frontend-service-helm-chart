@@ -2,9 +2,9 @@ environment: stage
 
 deployment:
   image:  
-    tag: 2
+    tag: 0
   replicas: 1
 
   labels:
     environment: stage
-    app: exercise-frontend-service-stage
+    app: exercise-frontend-stage

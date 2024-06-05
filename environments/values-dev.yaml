@@ -2,12 +2,9 @@ environment: dev
 
 deployment:
   image:  
-    tag: 2
+    tag: 0
   replicas: 1
 
   labels:
     environment: dev
     app: exercise-frontend-dev
-
-    # environment:
-    #   - URL=http://localhost:8080/openapi

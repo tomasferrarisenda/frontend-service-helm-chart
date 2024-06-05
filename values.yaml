@@ -2,12 +2,12 @@ system: exercise
 
 service: frontend
 
+port: 8080
+
 deployment:
   image:
-    # repository: swaggerapi/swagger-ui
     repository: tferrari92/frontend-service
     
   labels:
     system: exercise
     service: frontend
-    # backstage.io/kubernetes-id: frontend
